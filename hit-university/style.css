@@ -1,0 +1,226 @@
+body {
+  background-color: #f0f0f0;
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0px;
+}
+h4{
+  float: left;
+  padding: 0px;
+}
+
+hr{
+  color: gainsboro;
+}
+
+header {
+  height: 90px;
+  background-color: white;
+}
+
+.heading{
+  height: 60px;
+}
+
+.sub-header{
+  position: absolute;
+/*  top: 10px;*/
+  right: 5px;
+  text-align: right;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.sub-header li{
+  float: left;
+  list-style: none;
+  margin-right: 5px;
+}
+
+.university-name{
+  position: absolute;
+  left: 80px;
+  top: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.searching{
+  position: absolute;
+  right: 10px;
+  top: 25px;
+  text-align: right;
+  height: 8px;
+}
+
+.peoplebar{
+  height: 12px;
+  font-size: 9px;
+  font-weight: bold;
+  background-color: #f0f0f0;
+}
+
+.slash{
+    padding: 0px;
+    list-style: none;
+    width: 882px;
+    margin: auto;
+}
+
+.end-slash{
+  border-right: solid 1px silver;
+}
+
+ul li {
+  float: left;
+  width: 141px;
+  text-align: center;
+  border-left: solid 1px silver;
+}
+
+.contentsbar ul li{
+  width: 119px;
+}
+
+.contentsbar{
+  height: 18px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  background-color: crimson;
+}
+
+.contents{
+  background-color: white;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1200px;
+  padding: 10px 10px 0px 10px;
+}
+
+.above-content{
+  background-color: crimson;
+  height: 300px;
+  margin: 0px 0px 5px 0px;
+}
+
+.left-content{
+  float: left;
+  width: 550px;
+  height: 1000px;
+}
+
+.title{
+  margin: 5px;
+  border-bottom: solid 3px silver;
+}
+
+nav{
+  float: right;
+  color: crimson;
+  font-size: 12px;
+}
+
+.sentenses{
+  margin: 5px;
+}
+
+table{
+  border: 15px;
+}
+
+.day{
+  width: 120px;
+  vertical-align: top;
+}
+
+.details{
+
+}
+
+.topics{
+  border: solid 1px silver;
+}
+
+.recent-news{
+  border: solid 1px silver;
+  margin-top: 5px;
+}
+
+.event{
+  border: solid 1px silver;
+  margin-top: 5px;
+}
+
+.others{
+  border: solid 1px silver;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.right-content{
+  float: left;
+  width: 320px;
+  height: 1000px;
+}
+
+.media-information{
+  border: solid 1px silver;
+  margin-left: 5px;
+  padding: 5px;
+}
+
+.information{
+  padding: 0px;
+  margin: 5px 0px 5px 0px;
+}
+
+.information-list{
+  list-style: none;
+  background-color: wheat;
+  width:145px;
+  height:35px;
+  margin: 5px 0px 0px 5px;
+  float: left;
+  color: crimson;
+  font-weight: bold;
+  font-size: 12px;
+  display: table;
+}
+
+.middle{
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.project-information{
+  border: solid 1px silver;
+  margin: 5px 0px 0px 5px;
+  padding: 5px;
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+footer{
+  height: 200px;
+}
+
+.footer-above{
+  height: 80px;
+  background-color: darkgray;
+}
+
+.footer-under{
+  height: 120px;
+  background-color: crimson;
+}
